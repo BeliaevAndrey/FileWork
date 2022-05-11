@@ -12,7 +12,7 @@
     fr.Close();
 }
 
-void fileWrite(string text, string filename)    // Метод для чтения файла
+void fileWrite(string text, string filename)    // Метод для дописи файла
 {
     StreamWriter fw = File.AppendText(filename);    // Открыть файл для добавления текста
     fw.Write(text);     // Пишем текст, переданный в аргументах
