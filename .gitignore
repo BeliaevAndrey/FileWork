@@ -1,0 +1,13 @@
+# Ignoring files
+*.csproj
+*.png
+*.jpeg
+*.jpg
+
+
+# Ignoring directories
+*/obj
+*/bin
+obj/
+bin/
+.vscode
